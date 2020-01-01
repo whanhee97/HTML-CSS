@@ -7,9 +7,9 @@ a{
     color: white;
 }
 .big_blue {
-    display: inline-block;
+    position: fixed;
     width: 210px;
-    height: 750px;
+    height: 100%;
     background-color: #0060A8;
     color: white;
 }
@@ -22,7 +22,8 @@ a{
 .logo_okky{
    
    display: inline-block;
-   
+   position: relative;
+    bottom: 10px;
     margin-top: 0px;
    margin-bottom: 0;
 }
@@ -39,6 +40,7 @@ a{
     height: 45px;
 }
 .search_bar{
+    box-sizing: border-box;
     margin-bottom: 35px
 }
 #input_wrapper{
@@ -47,6 +49,7 @@ a{
     text-align: center;
     background-color: white;
     width: 130px;
+    height: 30px;
     margin-left: 20px;
 }
 
@@ -59,8 +62,10 @@ a{
 }
 
 #s_button{
-      
+    
     display: inline-block;
+    position: relative;
+    right: 5px;
     height: 25px;
     width: 20px;
     box-sizing: content-box;
@@ -70,29 +75,111 @@ a{
 
 
 .LOGINnSIGN{
-    
-    
+    font-size: 0;
+    margin-bottom: 110px;
 }
 
 .login_button{
     box-sizing: border-box;
+    display: inline-block;
     text-align: center;
     font-size: 0.75rem;
-    display: inline-block;
     border: solid 1px #00589A;
     padding: 10px;
-    width: 50%;
-  
+    width: 50%; 
     
 }
-.sign_in
+.sign_up
 {
     box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    right: 0;
     text-align: center;
     font-size: 0.75rem;
-    display: inline-block;
     border: solid 1px #00589A;
     padding: 10px;
     width: 50%;
+    
+}
+.QnA{
+    height: 50px;
+    margin-bottom: 15px;
+}
+#qna_img{
+    display: inline-block;
+    height: 35px;
+    position: relative;
+    left:7px;
+    top:5px;
+}
+.qna_txt{
+    
+    display: inline-block;
+    position: relative;
+    left:8px;
+    bottom:7px;
+}
+
+jobs .qna_txt{
+    display: inline-block;
+    position: relative;
+    left:8px;
+    bottom:7px;
+    
+}
+.Tech {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.community {
+    height:50px;
+    margin-bottom: 15px;
+}
+
+.column {
+    height:50px;
+    margin-bottom: 15px;
+}
+
+.jobs {
+    height:50px;
+    margin-bottom: 15px;
+}
+
+#tech_img {
+     display: inline-block;
+    height: 35px;
+    position: relative;
+    left:7px;
+    top:5px;
+}
+
+#comm_img {
+     display: inline-block;
+    height: 35px;
+    position: relative;
+    left:7px;
+    top:5px;
+}
+
+#jobs_img {
+     display: inline-block;
+    height: 35px;
+    position: relative;
+    left:7px;
+    top:5px;
+}
+
+#colu_img {
+     display: inline-block;
+    height: 35px;
+    position: relative;
+    left:7px;
+    top:5px;
+}
+
+#git_img {
     
 }
